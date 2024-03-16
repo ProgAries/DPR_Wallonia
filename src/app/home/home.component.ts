@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+
+  isCollapsed : boolean = false;
+
+  constructor(
+    ){}
+
+
 
 }
