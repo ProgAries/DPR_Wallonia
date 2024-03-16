@@ -34,16 +34,23 @@ h4{
   font-size: 20px;
   color: white;
 }
+
 #logo-dpr{
   height: 250px;
   width: 250px;
 }
+
+.logo{
+  margin: 25px;
+}
+
 .info-text{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 #txtinfo{
   color: white;
   font-weight: bold;
@@ -89,7 +96,7 @@ input[type="text"] {
 }
 
 #icon-search{
-  color: rgb(236, 119, 24) ;
+  color: rgb(0, 0, 0) ;
 }
 
 .img-box{
@@ -126,3 +133,43 @@ input[type="text"] {
   margin: 20px;
 }
 
+
+
+
+
+
+
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+#hackathon img{
+  transform: scale(0.5);
+}
+
+#txtfoot {
+  margin-top: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+#txtfoot p{
+  margin-top: 10px;
+}
+
+.linkdin {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.linkdin a {
+  margin: 40px;
+}
+
+#link img {
+  width: 30px;
+}
