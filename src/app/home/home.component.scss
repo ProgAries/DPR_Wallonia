@@ -1,0 +1,103 @@
+
+
+.header{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#title{
+  font-size: 40px;
+  color: white;
+}
+h4{
+  color: white;
+}
+#text-info{
+  font-size: 20px;
+  color: white;
+}
+#logo-dpr{
+  height: 250px;
+  width: 250px;
+}
+.info-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#txtinfo{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+// .searchbar{
+//   background-color: white;
+//   display: flex;
+//   flex-direction: row;
+//   border-radius: 10px;
+//   border: 2px solid white;
+//   margin: 25px;
+// }
+
+// input{
+//   border: 0 transparent;
+// }
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  padding: 8px 30px 8px 40px; /* padding left increased for icon */
+  border: 2px solid white;
+  border-radius: 10px; /* border radius for rounded corners */
+  width: 200px;
+  outline: none; /* remove focus outline */
+  background-color: transparent;
+}
+
+#btn-search[type="submit"] {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#btn-search[type="submit"] img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Optional: Style on hover */
+#btn-search[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+#icon-search{
+  color: rgba(173,44,43,1) ;
+}
