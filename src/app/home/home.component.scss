@@ -48,31 +48,19 @@ h4{
   font-size: 25px;
 }
 
-// .searchbar{
-//   background-color: white;
-//   display: flex;
-//   flex-direction: row;
-//   border-radius: 10px;
-//   border: 2px solid white;
-//   margin: 25px;
-// }
-
-// input{
-//   border: 0 transparent;
-// }
-
 .search-container {
   position: relative;
   display: inline-block;
   background-color: white;
   border-radius: 10px;
+  width: 100%;
 }
 
 input[type="text"] {
   padding: 8px 30px 8px 40px; /* padding left increased for icon */
   border: 2px solid white;
   border-radius: 10px; /* border radius for rounded corners */
-  width: 200px;
+  width: max-content;
   outline: none; /* remove focus outline */
   background-color: transparent;
 }
@@ -88,7 +76,7 @@ input[type="text"] {
   cursor: pointer;
 }
 
-#btn-search[type="submit"] img {
+#btn-search[type="submit"] mat-icon {
   width: 20px;
   height: 20px;
 }
@@ -100,4 +88,15 @@ input[type="text"] {
 
 #icon-search{
   color: rgba(173,44,43,1) ;
+}
+
+.img-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.card{
+  margin: 10px;
 }
