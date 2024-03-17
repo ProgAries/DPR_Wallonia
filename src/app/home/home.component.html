@@ -1,6 +1,6 @@
 <div class="header">
   <div class="social-icons">
-    <mat-icon style="color: white;">facebook</mat-icon>
+    <a href="https://www.facebook.com/dprleak" target="_blank" alt="..."><mat-icon style="color: white;">facebook</mat-icon></a>
     <!-- <mat-icon>twitter</mat-icon>  jbbsc -->
     <mat-icon style="color: white;">discord</mat-icon>
     <mat-icon style="color: white;">youtube</mat-icon>
@@ -70,24 +70,40 @@
   aria-expanded="false"
   aria-controls="collapseWidthExample"
   (click)="isCollapsed = !isCollapsed">
-  Toggle width collapse
+  Formulaire de contacte
 </button>
 
 <div class="collapse collapse-horizontal" [collapse]="isCollapsed" id="collapse">
   <app-contact-form></app-contact-form>
 </div>
 
+
+
+
+<div class="container-sm">
+  <p>Ce site web a été conçu et développé dans le cadre du hackathon "Citizen of Wallonie 2024", une initiative dédiée à l'innovation et à l'engagement civique en Wallonie. Notre objectif est de fournir une plateforme informative et accessible sur la Déclaration de Politique Régionale (DPR) en Wallonie.
+
+    Cependant, pour garantir un accès complet et transparent aux informations, nous reconnaissons l'importance d'une participation politique et citoyenne complémentaire. En travaillant ensemble, nous pouvons collectivement obtenir davantage de données et renforcer la transparence dans la formulation et la mise en œuvre des politiques régionales.
+
+    Nous encourageons donc tous les citoyens et les parties prenantes à s'impliquer activement, à partager leurs idées et à contribuer à enrichir le débat public sur la DPR en Belgique. Votre participation est essentielle pour façonner un avenir meilleur pour nos régions.
+
+    Rejoignez-nous dans cette démarche et ensemble, construisons un avenir plus transparent et participatif pour la Wallonie !</p>
+</div>
+
+
+
+
+
 <footer>
   <div class="footer-content">
-    <a id="hackathon"><img src="/assets/logo/hackathontr.png"></a>
-    <div id="txtfoot"><p>Équipe 10</p></div>
-
+    <a id="hackathon"><img id="logoHack" src="/assets/logo/hackathontr.png"></a>
+    <div id="txtfoot"><p>&copy; Hackathon 2024 <br>L'équipe: link de chaqun ci-dessous...</p></div>
     <div class="linkdin">
-      <a id="link" href="https://www.linkedin.com/in/g%C3%A9rard-g%C2%B2-ernaelsten-570b72b/" target="_blank"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
-      <a id="link" href="https://www.linkedin.com/in/michele-carbonaro/" target="_blank"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
-      <a id="link" href="https://www.linkedin.com/in/dallan-majunovic-627327215/" target="_blank"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
-      <a id="link" href="https://www.linkedin.com/in/antonio%2Dsanguin%C3%A9%2Ddev%2Dfullstack/" target="_blank"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
-      <a id="link" href="https://www.linkedin.com/in/nathan-debast-0a575b2ba/" target="_blank"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
+      <a id="link" href="https://www.linkedin.com/in/g%C3%A9rard-g%C2%B2-ernaelsten-570b72b/" target="_blank" title="Gérard Ernaelsetn"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
+      <a id="link" href="https://www.linkedin.com/in/michele-carbonaro/" target="_blank" title="Michele Carbonaro"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
+      <a id="link" href="https://www.linkedin.com/in/dallan-majunovic-627327215/" target="_blank" title="Dallan Majunovic"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
+      <a id="link" href="https://www.linkedin.com/in/antonio%2Dsanguin%C3%A9%2Ddev%2Dfullstack/" target="_blank" title="Antonio Sanguinè"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
+      <a id="link" href="https://www.linkedin.com/in/nathan-debast-0a575b2ba/" target="_blank" title="Nathan Debast"><img src="/assets/logo/linkedin-icon.png" class="card-img-top" alt="..."></a>
     </div>
   </div>
 </footer>

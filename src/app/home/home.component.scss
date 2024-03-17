@@ -146,30 +146,60 @@ footer {
   padding: 20px;
 }
 
-#hackathon img{
-  transform: scale(0.5);
+.footer-top{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
+
+#logoHack{
+  transform: scale(0.9);
+}
+
+#hackathon{
+
+  transform: scale(0.4);
+
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important ;
+
+}
+
 
 #txtfoot {
-  margin-top: 10px;
-  font-size: 40px;
+  margin-top: 5px;
+  font-size: 20px;
   color: white;
-}
-
-#txtfoot p{
-  margin-top: 10px;
 }
 
 .linkdin {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  align-items: center;
 }
 
 .linkdin a {
-  margin: 40px;
+  margin: 0px 30px;
 }
 
 #link img {
   width: 30px;
+}
+
+.container-sm{
+  >p{
+    color: white;
+    font-size: 28x;
+    text-align: center;
+  }
+
+  margin-top: 100px;
+
 }
